@@ -1,0 +1,80 @@
+[
+     {
+          "title":"Belajar Fundamental React JS",
+          "mentor":"Sandhika Galih WPU",
+          "materials": ["HTML" , "CSS" , "Javascript" , "Vite" , "GIT" , "React"],
+          "date":"08-01-2026"
+     },
+     {
+          "title":"Belajar Fundamental NEXT JS",
+          "mentor":"Dea Afrizal",
+          "materials": ["React" , "Next JS"],
+          "date":"08-01-2026"
+     },
+     {
+          "title":"Webinar WPU Makassar",
+          "mentor":"Sandhika Galih WPU",
+          "materials": ["CSS" , "Tailwindcss"],
+          "date":"11-03-2026"
+     },
+     {
+          "title":"Laravel 11 Fundamental",
+          "mentor":"Parsinta Rifqi",
+          "materials": ["PHP" , "Laravel"],
+          "date":"03-01-2027"
+     },
+     {
+          "title":"Laravel Livewire bikin hidup mudah",
+          "mentor":"Ranggo dendy",
+          "materials": ["PHP" , "Laravel" , "React JS"],
+          "date":"03-03-2026"
+     },
+     {
+          "title":"Python Dasar",
+          "mentor":"Eko Kurniawan Kanedy",
+          "materials": ["Python" , "Command Prompt"],
+          "date":"04-04-2026"
+     },
+     {
+          "title":"React Native untuk semua",
+          "mentor":"Muhammad Hafif",
+          "materials": ["Gradle","React JS","Express JS"],
+          "date":"08-01-2026"
+     },
+     {
+          "title":"Memahami Konsep FullStack Programming",
+          "mentor":"Sandhika Galih WPU",
+          "materials": ["Stackoverflow"],
+          "date":"08-01-2026"
+     },
+     {
+          "title":"Memahami Algoritma pemerograman",
+          "mentor":"Sandhika Galih WPU",
+          "materials": ["Computer"],
+          "date":"08-01-2026"
+     },
+     {
+          "title":"Membuat website dari 0 hinggal deploy",
+          "mentor":"Dea Afrizal",
+          "materials": ["HTML","CSS","Javascript"],
+          "date":"08-01-2026"
+     },
+     {
+          "title":"Javascript itu powerfull",
+          "mentor":"Muhammad Rarif",
+          "materials": ["Javascript"],
+          "date":"08-05-2026"
+     },
+     {
+          "title":"PHP vs Javascript ?",
+          "mentor":"Eko Kurniawan Kanedy",
+          "materials": ["Javascript" , "PHP"],
+          "date":"21-05-2026"
+     },
+     {
+          "title":"Belajar dasar pemerograman JAVA",
+          "mentor":"Eko Kurniawan Kanedy",
+          "materials": ["JAVA"],
+          "date":"21-12-2026"
+     }
+]
