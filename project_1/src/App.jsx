@@ -2,10 +2,12 @@ import "./styles/app.css"
 import datas from "./api.json"
 import { Search } from "./components/search"
 import { useState } from "react"
+import { GlobalContext } from "./context/context"
 
 function App() {
   let [data, setData] = useState(datas);
   let [keyword, setKeyword] = useState("");
+
   function searchInput(e) {
     const filterSearch = datas.filter(i => i.title.toLocaleLowerCase().includes(e.target.value.trim()))
     setKeyword(e.target.value);
