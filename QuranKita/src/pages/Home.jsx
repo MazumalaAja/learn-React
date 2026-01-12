@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import Navbar from "../components/navigations";
 
 export default function Home() {
@@ -5,7 +6,8 @@ export default function Home() {
      const data = [
           { icon: `bi bi-book`, title: `Baca Al-Quran`, text: `Teks Arab, transliterasi, dan terjemahan bahasa Indonesia` },
           { icon: `bi bi-soundwave`, title: `Audio Berkualitas`, text: `Teks Arab, transliterasi, dan terjemahan bahasa Indonesia` },
-          { icon: `bi bi-lightbulb`, title: `Tafsir Lengkap`, text: `Memahami makna dengan tafsir yang mudah dipahami` }
+          { icon: `bi bi-lightbulb`, title: `Tafsir Lengkap`, text: `Memahami makna dengan tafsir yang mudah dipahami` },
+          { icon: `bi bi-clock`, title: `Waktu Sholat yang Akurat`, text: `Mengintegrasi API waktu sholat yang tepat dan akurat` }
      ]
      return (
           <>
@@ -13,13 +15,13 @@ export default function Home() {
                <Navbar />
 
                {/* ===== First Section ===== */}
-               <section className="bg-[url(./src/resources/images/04.jpg)]  bg-no-repeat bg-cover p-20 flex flex-col gap-5 items-center h-screen w-full">
+               <section className=" p-20 flex flex-col gap-8 items-center h-screen w-full mb-3">
 
                     {/* ===== Title ===== */}
-                    <span className="text-xl rounded-full border border-indigo-200/20 backdrop-blur-sm bg-indigo-400/10 px-10 py-1.5 text-indigo-100">Al-Qur'an Digital Anak Bangsa</span>
+                    <span className="text-xl rounded-full border border-indigo-200/20 backdrop-blur-sm bg-indigo-400/10 px-10 py-1.5 text-indigo-50">Al-Qur'an Digital Anak Bangsa</span>
                     <div className="max-w-4xl space-y-3">
                          <h1 className="text-5xl text-center font-semibold text-indigo-100">Platform Baca Al-Qur'an Online</h1>
-                         <p className="text-xl text-gray-300/60  text-center">Baca, dengarkan, dan pelajari Al-Quran dengan terjemahan Indonesia, audio 6 qari terbaik, tafsir lengkap</p>
+                         <p className="text-xl text-gray-200/80  text-center">Baca, dengarkan, dan pelajari Al-Quran dengan terjemahan Indonesia, audio 6 qari terbaik, tafsir lengkap</p>
                     </div>
 
                     {/* ===== Tombol CTA ===== */}
@@ -31,7 +33,7 @@ export default function Home() {
                     </div>
 
                     {/* ===== Card ===== */}
-                    <div className="flex flex-wrap gap-3 justify-center">
+                    <div className="flex flex-wrap gap-3 max-w-5xl justify-center">
                          {
                               data.map((v, i) => (
                                    <div key={i} className="bg-indigo-500/10 shadow-md hover:translate-y-[-3%] duration-300 space-y-2 backdrop-blur-sm text-indigo-100 text-center max-w-[20rem] p-3 border border-indigo-200/20 rounded-lg">
@@ -43,6 +45,8 @@ export default function Home() {
                          }
                     </div>
                </section>
+
+               <Footer />
           </>
      )
 }
